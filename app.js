@@ -33,11 +33,7 @@ app.get("/posts/:postTitle", (req, res) => {
     }
   });
 
-  // for (i = 0; i < posts.length; i++) {
-  //   if (req.params.postTitle == posts[i].title) {
-  //     console.log("Match Found");
-  //   }
-  // }
+  
 });
 
 app.get("/about", (req, res) => {
