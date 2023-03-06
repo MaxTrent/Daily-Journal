@@ -20,7 +20,6 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.render("home", { homeStartingContent, posts });
-  // console.log(posts);
 });
 
 app.get("/posts/:postTitle", (req, res) => {
